@@ -1,0 +1,80 @@
+:root {
+  --clr4: #1596ff;
+  --clr3: #8bd3ff;
+  --clr2: #d3edfb;
+  --clr1: #e8f7fb;
+  font-size: 16px;
+  font-family: "Avenir-Regular", sans-serif;
+
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+svg{
+    display: block;
+}
+.bg {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.skyline {
+  background-image: url("dcc/skyline.png");
+}
+
+section h2{
+    margin-top: 14vh;
+    margin-bottom: 24px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    letter-spacing: -0.6px;
+}
+
+section h3{
+    color: #1a85ff;
+    text-transform: uppercase;
+
+    text-align: center;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+
+    padding: 0 20px;
+    margin-bottom: 24px;
+}
+
+section div#clients{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+section div#clients div{
+    padding: 48px ;
+    background-color: var(--clr2);
+    margin: 12px;
+}
+
+
